@@ -1,0 +1,48 @@
+.descricaoImagem{
+    margin-top: 20px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inputRadio{
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.inputNumber{
+    width: 100%;
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputNumber input{
+    margin-top: 3px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: beige;
+    transition: all 0.5s;
+}
+
+button:hover{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(37, 26, 166);
+    color: #FFF;
+}
+
+.inputImage div{
+    margin: 10px;
+}
