@@ -24,7 +24,7 @@ function Home(){
 
             var data = JSON.stringify({
                 "tipo": tipo,
-                "turnTransparent": transparent == true,
+                "turnTransparent": transparent === true,
                 "width": width,
                 "height":height,
                 "Arquivo": imagem
