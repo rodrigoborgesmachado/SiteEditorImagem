@@ -57,9 +57,11 @@ function Home(){
 
     if(loadding){
         return(
+        <div className='container'>
             <div className='loaddingDiv'>
                 <img src={require('../../assets/hug.gif')} alt="Loading..." />
             </div>
+        </div>
         )
     }
 
@@ -87,7 +89,7 @@ function Home(){
                         <>
                         </>
                         :
-                        <div dangerouslySetInnerHTML={createMarkup(`<img src="${imagem}" alt="Anexo" />`)}>
+                        <div className='imagem' dangerouslySetInnerHTML={createMarkup(`<img src="${imagem}" alt="Anexo" />`)}>
                         </div>
                     }
                 </div>
